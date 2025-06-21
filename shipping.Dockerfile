@@ -10,5 +10,5 @@ COPY . /app
 # Comando para instalar as dependências
 RUN npm install
 
-# Comando para inicializar (executar) a aplicação
+# Comando para inicializar (executar) a aplicacao
 CMD ["node", "/app/services/shipping/index.js"]
